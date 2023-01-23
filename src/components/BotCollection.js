@@ -10,9 +10,8 @@ function BotCollection({ botCollection, action, removeCard }) {
 
     return (
 
-        <div className="column">
+        <div className="ui four column grid">
           <div className="row">
-            You have completed your Bot Army. There are no more bots to collect.
             {displayBotCards}
           </div>
         </div>

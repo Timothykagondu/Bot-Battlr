@@ -9,9 +9,9 @@ function YourBotArmy(props) {
     })
   
   return (
-    <div className="bot-army">
-      <div className="grid">
-        <div className="bot-army-row">
+    <div className="ui segment inverted olive bot-army">
+      <div className="ui five column grid">
+        <div className="row bot-army-row">
           {displayBots}
         </div>
       </div>

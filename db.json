@@ -1,42 +1,6 @@
 {
   "bots": [
     {
-      "id": 128,
-      "name": "qT-53",
-      "health": 72,
-      "damage": 80,
-      "armor": 29,
-      "bot_class": "Assault",
-      "catchphrase": "10011000110110001111011111110110110010",
-      "avatar_url": "https://robohash.org/quidoloresit.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:11.367Z",
-      "updated_at": "2018-10-02T19:55:11.367Z"
-    },
-    {
-      "id": 129,
-      "name": "E-88",
-      "health": 95,
-      "damage": 37,
-      "armor": 50,
-      "bot_class": "Medic",
-      "catchphrase": "0110011010100100010110100011000001110001001111",
-      "avatar_url": "https://robohash.org/beataequisaut.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:11.387Z",
-      "updated_at": "2018-10-02T19:55:11.387Z"
-    },
-    {
-      "id": 130,
-      "name": "Qz-38",
-      "health": 63,
-      "damage": 99,
-      "armor": 23,
-      "bot_class": "Assault",
-      "catchphrase": "01111111011110101100110110111000101111010",
-      "avatar_url": "https://robohash.org/repellendusasperioresdolor.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:11.439Z",
-      "updated_at": "2018-10-02T19:55:11.439Z"
-    },
-    {
       "id": 131,
       "name": "Q_n-34",
       "health": 92,
@@ -83,18 +47,6 @@
       "avatar_url": "https://robohash.org/oditdoloresullam.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:11.528Z",
       "updated_at": "2018-10-02T19:55:11.528Z"
-    },
-    {
-      "id": 135,
-      "name": "yLH-96",
-      "health": 89,
-      "damage": 40,
-      "armor": 66,
-      "bot_class": "Captain",
-      "catchphrase": "101100000111010111111101010111101101100101101111",
-      "avatar_url": "https://robohash.org/doloretqui.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:11.544Z",
-      "updated_at": "2018-10-02T19:55:11.544Z"
     },
     {
       "id": 136,
@@ -191,18 +143,6 @@
       "avatar_url": "https://robohash.org/facerenequevoluptas.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:11.718Z",
       "updated_at": "2018-10-02T19:55:11.718Z"
-    },
-    {
-      "id": 144,
-      "name": "ziP-34",
-      "health": 87,
-      "damage": 23,
-      "armor": 80,
-      "bot_class": "Support",
-      "catchphrase": "110000000100101110010011001000",
-      "avatar_url": "https://robohash.org/quisuntest.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:11.737Z",
-      "updated_at": "2018-10-02T19:55:11.737Z"
     },
     {
       "id": 145,

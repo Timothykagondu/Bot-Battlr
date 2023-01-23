@@ -58,9 +58,9 @@ const botTypeClasses = {
                   </div>
                 </div>
               </div>
-              <button onClick={() => props.back()} >Go Back</button>
+              <button onClick={() => props.back()} >Back</button>
               
-              <button onClick={() => props.enlist(props.bot)} >Enlist</button>
+              <button onClick={() => props.enlist(props.bot)} >Add to your army</button>
             </div>
           </div>
         </div>

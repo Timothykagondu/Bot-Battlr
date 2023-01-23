@@ -34,7 +34,7 @@ const botTypeClasses = {
             
           </div>
           <div>
-            <div className="header">
+            <div className="header1">
               {props.bot.name}
               <i className={botTypeClasses[props.bot.bot_class]} />
             </div>

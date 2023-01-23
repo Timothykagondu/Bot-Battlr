@@ -25,7 +25,9 @@ class BotsPage extends Component {
       addToArmy = (bot) => {
 
         const newCollection = this.state.filteredCollection.filter(card => card.bot_class !== bot.bot_class)
+
         this.setState({
+
           filteredCollection: newCollection,
           botArmy: [...this.state.botArmy, bot],
           collectionVisible: true,
@@ -35,10 +37,15 @@ class BotsPage extends Component {
       removeFromArmy = (bot) => {
 
         const newArmy = this.state.botArmy.filter(card => card.id !== bot.id)
+
         const armyClasses = newArmy.map(bot => bot.bot_class)
+
         const newCollection = this.state.botCollection.filter(bot => {
+
           console.log("Filter:", !armyClasses.includes(bot.bot_class))
+
           return !armyClasses.includes(bot.bot_class)
+
         })
         console.log("newCollection", newCollection)
     
@@ -48,7 +55,9 @@ class BotsPage extends Component {
       removeBotPermanently = (bot) => {
 
         let newCollection = this.state.botCollection.filter(card => card !== bot)
+
         let newFilteredCollection = this.state.filteredCollection.filter(card => card !== bot)
+        
         let newArmy = this.state.botArmy.filter(card => card !== bot)
     
         this.setState({ botCollection: newCollection, filteredCollection: newFilteredCollection, botArmy: newArmy })

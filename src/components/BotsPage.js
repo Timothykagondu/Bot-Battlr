@@ -62,7 +62,7 @@ class BotsPage extends Component {
     
         this.setState({ botCollection: newCollection, filteredCollection: newFilteredCollection, botArmy: newArmy })
     
-        fetch(`https://timothykagondu.github.io/Botdb/db.json/${bot.id}`, {
+        fetch(`https://timothykagondu.github.io/Botdb/db.json ${bot.id}`, {
           method: 'DELETE'
         }).then(response => response.json())
           .then(result => console.log(result))
